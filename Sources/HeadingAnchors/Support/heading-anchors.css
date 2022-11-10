@@ -1,0 +1,37 @@
+/* THIS FILE WAS AUTOMATICALLY GENERATED. */
+/* DO NOT CHANGE IT MANUALLY              */
+/* markbattistella.com | Mark Battistella */
+/* https://github.com/markbattistella/HeadingAnchorsPublishPlugin */
+
+
+:is(h1, h2, h3, h4, h5, h6) {
+	display: flex;
+	align-items: center;
+}
+
+:is(h1, h2, h3, h4, h5, h6) :is(a) {
+	width: 1em;
+	height: 1em;
+}
+
+:is(h1, h2, h3, h4, h5, h6) :is(span) {
+	padding-left: 0.7em;
+}
+
+:is(h1, h2, h3, h4, h5, h6) :is(svg) {
+	fill: rgba(0, 0, 0, 0.7);
+}
+
+:is(h1, h2, h3, h4, h5, h6) :is(svg:hover) {
+	fill: rgba(0, 0, 0, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+	:is(h1, h2, h3, h4, h5, h6) :is(svg) {
+		fill: rgba(255, 255, 255, 0.7);
+	}
+	
+	:is(h1, h2, h3, h4, h5, h6) :is(svg:hover) {
+		fill: rgba(255, 255, 255, 1);
+	}
+}
